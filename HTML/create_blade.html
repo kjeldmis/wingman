@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Wingman - Create Blade</title>
+    
+    <link type="text/css" rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1400px)" href="styling/style_tablet.css" />
+    
+</head>
+
+<body>
+    
+    <header>
+        
+        <h1 id="header">Wingman</h1>
+        
+    </header>
+
+    <div class="input_area">
+<table class="updateDB_form">
+<form name="createblade_form" method="post" action="">
+<tr>
+<td><input type="text" class="input_field_1" placeholder="Blade ID"></td>
+</tr>
+<tr>
+<td><select name="spaces" size="1" class="input_field_2">
+    <option selected="selected" value="">Space</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    <option value="08">08</option>
+    <option value="09">09</option>
+    <option value="10">10</option>
+    </select></td>
+</tr>
+<tr>
+    <td><select name="rows" size="1" class="input_field_3">
+    <option selected="selected" value="">Row</option>
+    <option value="01">01</option>
+    <option value="01">02</option>
+    <option value="01">03</option>
+    <option value="01">04</option>
+    <option value="01">05</option>
+    </select></td>
+</tr>
+<tr>
+    <td><select name="number" size="1" class="input_field_4">
+    <option selected="selected" value="">Row Number</option>
+    <option value="01">01</option>
+    <option value="01">02</option>
+    <option value="01">03</option>
+    <option value="01">04</option>
+    <option value="01">05</option>
+    </select></td>
+</tr>
+</form>
+</table>
+</div>
+    
+    <div class="mainmenu_content">
+<div id="button_3">
+    <input type="button" value="Accept" id="accept_button" class="mainmenu_button" onClick="window.location.href='blades.html'"></a>
+</div>
+<div id="button_6">
+    <input type="reset" value="Reset" id="reset_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+    </div>
+
+    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
+    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. BaIT5 - Group 318</i></small></div>
+
+</body>
+</html>
