@@ -1,0 +1,200 @@
+
+/*Sets the overall style of the HTML document*/
+html {
+    background-color: #40e0d0; /*Turqouise*/
+    max-width: 1024px;
+    height: 100%;
+    overflow: scroll;
+}
+
+/*Positions the Headers for every screen*/
+#header {
+    position: absolute;
+    width: 100%;
+    height: 14%;
+    top: 2%;
+    left: 43%;
+}
+
+/*Positions and sizes the main menu content for every menu screen*/
+.mainmenu_content {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    max-width: auto;
+}
+
+/*Positions and sized the input content for every input screen*/
+.input_area {
+    position: absolute;
+    top: 2%;
+    left: 35%;
+}
+
+.input_field_1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+.input_field_3 {
+    position: absolute;
+    top: 70%;
+    left: 50%
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+.input_field_4 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+
+/*Positions Button 1*/
+#button_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*Positions Button 2*/
+#button_2 {
+    position: absolute;
+    top: 0%;
+    left: 110%;
+}
+
+/*Positions Button 3*/
+#button_3 {
+    position: relative;
+    top: 0%;
+    left: 220%;
+}
+
+/*Positions Button 4*/
+#button_4 {
+    position: absolute;
+    top: 150%;
+    left: 0%;
+}
+
+/*Positions Button 5*/
+#button_5 {
+    position: absolute;
+    top: 150%;
+    left: 110%;
+}
+
+/*Positions Button 6*/
+#button_6 {
+    position: absolute;
+    top: 150%;
+    left: 220%;
+}
+
+
+/*Changes how the table for the login form is seen*/
+.loginform {
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height: 65%;
+    padding: 40px;
+    top: 20%;
+    right: 40%;
+    float: right;
+}
+
+.header_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    width: 10%;
+    height: 8%;
+}
+
+#logout_button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    
+}
+
+/*Changes how every table for almost every form, except the login form, is seen*/
+.updateDB_form {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 200px;
+    top: 20%;
+    right: 40%;
+}
+
+
+/*Positions and sizes the username field at the login screen*/
+#myusername {
+    position: absolute;
+    width: 80%;
+    height: 8%;
+    font-size: larger;
+}
+
+/*Positions and sizes the password field at the login screen*/
+#mypassword {
+    position: absolute;
+    width: 80%;
+    height: 8%;
+    font-size: larger;
+}
+
+/*positions and sizes the login button at the login screen*/
+.login_button {
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    top: 65%;
+    right: -10%;
+    font-size: larger;
+}
+
+/*Positions, sizes, changes look and fonts for the main menu buttons.*/
+.mainmenu_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    height: 100px;
+    width: 260px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+
+/*Positions and sizes the copyright field at every screen*/
+#copyright {
+        color: #000000; /*Black*/
+        position: absolute;
+        position: fixed;
+        bottom: 2px;
+        right: 5%;
+    }
