@@ -16,14 +16,14 @@
         
         <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='locations.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='add_location.html'"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
         <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
-
+    
     <div class="mainmenu_content">
 <div id="button_1">
     <input type="button" value="Add Location" id="addlocation_button" class="highlighted_mainmenu_button"></a>
@@ -34,13 +34,16 @@
 <table class="updateDB_form">
 <form name="addlocation_form" method="post" action="">
 <tr>
-<td><input type="text" name="locationName" class="input_field_2" placeholder="Location Name"></td>
+<td class="input_field_1">"Insert Location Name Here" created succesfully</td>
 </tr>
 <tr>
-<td class="input_field_4">Enter the desired name for the location above.</td>
+<td class="input_field_2"><input type="button" value="Add 1 Row" id="addrow_button" class="input_field_button" onClick="window.location.href='add_location_row.html'"></a></td>
 </tr>
 <tr>
-<td><input type="button" value="Save" id="accept_button" class="input_button" onClick="window.location.href='add_location_2.html'"></a>
+<td class="input_field_3">Click the "Add 1 Row" button above if </br>you want to add a new Row to the Location.</br></br>Otherwise, click "Finish".</td>
+</tr>
+<tr>
+<td><input type="button" value="Finish" id="accept_button" class="input_button" onClick="window.location.href='locations.html'"></a>
     <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='locations.html'"></a></td>
 </tr>
 </form>
@@ -48,13 +51,11 @@
     </div>
     
 
-    
-
-
 </div>
     <!--Here the copyright line at the very bottom of the webpage is inserted.-->
     <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. Insert name Here</i></small></div>
 
 </body>
 </html>
+
 
