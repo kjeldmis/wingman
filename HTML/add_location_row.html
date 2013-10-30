@@ -16,14 +16,14 @@
         
         <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='locations.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='add_location.html'"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
         <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
-
+    
     <div class="mainmenu_content">
 <div id="button_1">
     <input type="button" value="Add Location" id="addlocation_button" class="highlighted_mainmenu_button"></a>
@@ -34,22 +34,26 @@
 <table class="updateDB_form">
 <form name="addlocation_form" method="post" action="">
 <tr>
-<td><input type="text" name="locationName" class="input_field_2" placeholder="Location Name"></td>
+<td class="input_field_1">"Insert Location Name Here" created succesfully</td>
 </tr>
 <tr>
-<td class="input_field_4">Enter the desired name for the location above.</td>
+<td class="input_field_2"><input type="button" value="Add 1 Row" id="addrow_button" class="highlighted_input_field_button"></a></td>
 </tr>
 <tr>
-<td><input type="button" value="Save and Next" id="accept_button" class="input_button" onClick="window.location.href='add_location_2.html'"></a>
+<td><input type="text" name="space_amount" id="space_amount_field" class="input_field_3" placeholder="00"></td>
+</tr>
+<tr>
+<td class="input_field_4">Specify above how many Spaces </br>you want to add to the Row.</td>
+</tr>
+<tr>
+<td><input type="button" value="Save Row" id="accept_button" class="input_button" onClick="window.location.href='add_location_2.html'"></a>
     <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='locations.html'"></a></td>
 </tr>
 </form>
 </table>
     </div>
     
-
     
-
 
 </div>
     <!--Here the copyright line at the very bottom of the webpage is inserted.-->
@@ -57,4 +61,6 @@
 
 </body>
 </html>
+
+
 

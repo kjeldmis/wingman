@@ -2,9 +2,32 @@
 /*Sets the overall style of the HTML document*/
 html {
     background-color: #40e0d0; /*Turqouise*/
-    max-width: 1024px;
+    border-style: solid;
+    border-width: 5px;
+    max-width: 100%;
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+
+#tomato {
+    position: absolute;
+    background-color: #ff6347; /*Tomato*/
+    border-style: solid;
+    width: 3%;
+    height: 4%;
+    top: 2%;
+    right: 36%;
+}
+#not_implemented_text {
+    position: absolute;
+    top: 2%;
+    right: 22%;
 }
 
 /*Positions the Headers for every screen*/
@@ -12,14 +35,14 @@ html {
     position: absolute;
     width: 100%;
     height: 14%;
-    top: 2%;
+    top: 0%;
     left: 43%;
 }
 
 /*Positions and sizes the main menu content for every menu screen*/
 .mainmenu_content {
     position: absolute;
-    top: 25%;
+    top: 18%;
     left: 7%;
     max-width: auto;
 }
@@ -27,41 +50,187 @@ html {
 /*Positions and sized the input content for every input screen*/
 .input_area {
     position: absolute;
-    top: 2%;
-    left: 35%;
+    border-style: dashed;
+    top: 18%;
+    right: 6%;
+    width: 57%;
+    height: 77%;
+}
+/*Positions and sized the input area 2 content for every input screen*/
+.input_area_2 {
+    position: absolute;
+    border-style: dotted;
+    bottom: 5%;
+    left: 7%;
+    width: 26%;
+    height: 53%;
+}
+
+/*Positions and sized the data content for every data screen*/
+.data_area {
+    position: absolute;
+    background-color: #c0c0c0; /*silver*/
+    border-style: solid;
+    top: 18%;
+    right: 6%;
+    width: 48%;
+    height: 77%;
+    overflow-y: scroll;
 }
 
 .input_field_1 {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 5%;
+    left: 5%;
     width: auto;
     height: 10%;
     font-size: larger;
 }
 .input_field_2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 5%;
     width: auto;
     height: 12%;
     font-size: larger;
 }
 .input_field_3 {
     position: absolute;
-    top: 70%;
-    left: 50%
+    top: 35%;
+    left: 5%;
     width: auto;
     height: 12%;
     font-size: larger;
 }
 .input_field_4 {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 50%;
+    left: 5%;
     width: auto;
     height: 12%;
     font-size: larger;
+}
+.input_field_5 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+
+#space_amount_field {
+    width: 9%;
+    text-align: center;
+}
+
+.input_field_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: auto;
+    height: 100%;
+}
+
+.input_field2_1 {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+.input_field2_2 {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_3 {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_4 {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_5 {
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+
+.highlighted_input_field_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: double;
+    border-color: #ffff00; /*yellow*/
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: auto;
+    height: 100%;
+}
+
+.input_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-si0e: larger;
+    width: 24%;
+    height: 16%;
+}
+
+#accept_button {
+    position: absolute;
+    bottom: 2%;
+    right: 10%;
+}
+
+#cancel_button {
+    position: absolute;
+    bottom: 2%;
+    right: 40%;
+}
+
+.input_button2 {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    width: 46%;
+    height: 14%;
+}
+
+#accept_button2 {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+}
+
+#cancel_button2 {
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
 }
 
 /*Positions Button 1*/
@@ -133,7 +302,18 @@ html {
     position: absolute;
     top: 2%;
     right: 2%;
-    
+}
+
+#home_button {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+#back_button {
+    position: absolute;
+    top: 2%;
+    left: 15%;
 }
 
 /*Changes how every table for almost every form, except the login form, is seen*/
@@ -142,11 +322,17 @@ html {
     text-align: left;
     width: 100%;
     height: 100%;
-    padding: 200px;
-    top: 20%;
-    right: 40%;
+    padding: 80px;
+    top: 0%;
+    left: 2%;
 }
 
+.data_table {
+    position: relative;
+    background-color: #ffffff; /*white*/
+    font-size: larger;
+    padding: 2px;
+}
 
 /*Positions and sizes the username field at the login screen*/
 #myusername {
@@ -177,6 +363,30 @@ html {
 /*Positions, sizes, changes look and fonts for the main menu buttons.*/
 .mainmenu_button {
     background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    height: 100px;
+    width: 260px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*Positions, sizes, changes look and fonts for the highlighted main menu buttons.*/
+.highlighted_mainmenu_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: double;
+    border-color: #ffff00; /*yellow*/
+    height: 100px;
+    width: 260px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*Positions, sizes, changes look and fonts for the not implemented main menu buttons.*/
+.not_implemented_mainmenu_button {
+    background-color: #ff6347; /*Tomato*/
     border-style: thin;
     border-color: #191970; /*MidnightBlue*/
     height: 100px;
