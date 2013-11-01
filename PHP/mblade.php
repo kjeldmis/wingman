@@ -27,6 +27,7 @@ class MBlade extends Model {
 	
 	function __construct() {
 		print "This is MBlade constructor\n";
+		parent::__construct();
 		}
 	
 	function getID($locationID){

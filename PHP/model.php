@@ -2,8 +2,8 @@
 class Model {
 	public $db;
 	function __construct() {
-		print "This is MBlade constructor\n";
+		print "This is Model Constructor!\n";
 		//create db connection.
-		$this->db = new Database($DB_TYPE, $DB_HOST, $DB_NAME, $DB_USER, $DB_PASS);
+		$this->db = new Database('mysql', 'localhost', 'wingman', 'root', 'quandabab');
 	}
 }

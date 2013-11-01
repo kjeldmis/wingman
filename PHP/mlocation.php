@@ -1,25 +1,34 @@
 <?php
 require 'model.php';
-/*
- * location SQL script
- * 
- * 
--- -----------------------------------------------------
--- Table `wingman`.`Location`
--- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `wingman`.`Location` (
-  `area` VARCHAR(50) NOT NULL ,
-  `row` INT NOT NULL ,
-  `no` INT NOT NULL ,
-  `locationID` INT NOT NULL AUTO_INCREMENT ,
-  `locationType` VARCHAR(45) NOT NULL ,
-  PRIMARY KEY (`locationID`) ,
-  UNIQUE INDEX `locationID_UNIQUE` (`locationID` ASC) )
-ENGINE = InnoDB;
-
- */
 
 class MLocation extends Model 
 {
 	
-}  
+	/*	lav lokation (name, type)
+	 * 		Check om lokation eksisterer (select name from location)
+	 * 			Nej: saet navn og type.
+	 * 			Ja: Stop. Lokation eksisterer allerede  
+	 *		
+	 * 	Opret  raekke (Location_ID, antal pladser)
+	 * 		Check om raekke allerede eksisterer. (Select Location_ID, row fra LocationData)  	
+	 * 			Ja: Stop. raekke eksisterer.
+	 * 			Nej: opret raekke
+	 * 				Opret pladser i raekken.
+	 * 				Saet Blades_ID til at vaere tom.
+	 *  
+	 *  Slet raekke(raekke)
+	 *  	Check om der er blades i raekken. (select bladeID from LocationData where row = $row)
+	 *  	Er blades_ID tomt i alle felter?
+	 *  		nej: Slet.
+	 *  		Ja: stop. 
+	 * 
+	 * 	Slet lokation
+	 * 		Check om alle raekker er tomme (Kompleks) 
+	 * 
+	 */
+	
+	
+	
+
+}  	
+	
