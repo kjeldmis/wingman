@@ -4,57 +4,80 @@
 require 'db.php'; // uden denne kan vi ikke lave noget i databasen.
 require 'model.php'; // uden denne har vi ikke kontakt til databasen.
 
-/* SQL til blade:
+ /*SQL til blades:
  * 
- * CREATE  TABLE IF NOT EXISTS `wingman`.`Blades` (
-  `bladeID` VARCHAR(50) NULL ,
-  `location` VARCHAR(50) NOT NULL ,
-  `phase` INT NULL ,
-  `Location_locationID` INT NOT NULL ,
-  PRIMARY KEY (`bladeID`) ,
-  INDEX `fk_Blades_Location1_idx` (`Location_locationID` ASC) ,
-  CONSTRAINT `fk_Blades_Location1`
-    FOREIGN KEY (`Location_locationID` )
-    REFERENCES `wingman`.`Location` (`locationID` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
- * 
- */
+ CREATE TABLE Blades
+(
+ID VARCHAR(50) NOT NULL ,
+phase INT ,
+PRIMARY KEY (ID)
+);
 
-class MBlade extends Model {
+*/
+
+class MBlade extends Model 
+{
 	// model class for blade. 
 	
-	function __construct() {
+	function __construct() 
+	{
 		print "This is MBlade constructor\n";
 		parent::__construct();
 		}
 	
-	function getID($locationID){
+	function createBlade($ID, $row, $space, $Location_ID)
+	{ 	
+		
+		//check if ID exist
+	
+		$check = $this->exists($ID);
+		if($check = false) {return FALSE;}
+		else {return TRUE;}	 
+		
+		$check = $this->
+		//check for empty row
+		//check for empty space
+
+			//if yes -> give Location_ID
+		
+		
+		$data=array('row'=>$row,'space'=>$space, 'Location_ID'=>$Location_ID);
+		$this->db->insert('LocationData', $data);
+		
+		$addBladeID=array('ID'=>$ID);
+		$this->db->insert('Blades', $data);
+	}	
+	function getID($ID)
+	{
 		//return ID for blade on specific location.
 		//remember to check in control that the specified return values is valid. Remember, empty arrays are always false.
-		return $this->db->select('SELECT bladeID FROM Blades WHERE locationID = :locationID', array('locationID' => $locationID));
+		return $this->db->select('SELECT ID FROM Location WHERE ID = :ID', array('ID' => $ID));
 	}
 	
-	function exists($bladeID){
+	function exists($ID)
+	{
 		//checks if blade exists
-		$check = $this->db->select('SELECT bladeID FROM Blades WHERE bladeID = :bladeID', array('bladeID' => $bladeID));
+		$check = $this->db->select('SELECT ID FROM Blades WHERE ID = :ID', array('ID' => $ID));
 		if($check = FALSE) {return FALSE;}
 		else {return TRUE;}
 	}
 	
 	
 
-	function load($bladeID){
-		return $this->db->select('SELECT bladeID,locationID FROM Blades WHERE bladeID = :bladeID', array('bladeID' => $bladeID));
+	function load($ID)
+	{
+		return $this->db->select('SELECT ID FROM Blades WHERE ID = :ID', array('ID' => $ID));
 		
 	}
 	
-	function update($bladeID, $locationID){
-		//update locationID
+	
+	function update($ID){
+		//update LocationData, ID
+
+		//check om blade exist
 		
-		$data = array('locationID' => $locationID);
+		$data = array('ID' => $ID);
 		
-		$this->db->update('Blades', $data, "`bladeID` = '{$bladeID}'");
+		$this->db->update('LocationData', $data, "`ID` = '{$ID}'");
 		}
 }	
