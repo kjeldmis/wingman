@@ -353,10 +353,13 @@ input, textarea {
 /*positions and sizes the login button at the login screen*/
 .login_button {
     position: absolute;
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
     width: 40%;
     height: 12%;
     top: 65%;
-    right: -10%;
+    right: -13%;
     font-size: larger;
 }
 
