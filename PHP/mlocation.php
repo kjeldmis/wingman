@@ -85,6 +85,7 @@ class MLocation extends Model
 			return TRUE;
 		}
 		return FALSE;
+	}
 	
 	/*
 	 * SpaceExists(Location_ID, row, space)
