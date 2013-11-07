@@ -1,4 +1,5 @@
 <?php
+require 'db.php';
 class Model {
 	public $db;
 	function __construct() {
