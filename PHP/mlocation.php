@@ -12,6 +12,7 @@ class MLocation extends Model
 	
 	function create($name, $type) 
 	{
+		print('Create statement');
 		//Check if location exists. 
 		if ($this->exists($name) == FALSE)
 		{
@@ -19,6 +20,7 @@ class MLocation extends Model
 			$data = array('name' => $name, 'type' => $type);
 			$this->db->insert('Location', $data);
 		}
+		else {print('location already exists.');}	
 	}
 	
 	/* 	Opret  raekke (Location_ID, antal pladser)
@@ -30,9 +32,10 @@ class MLocation extends Model
 	*/
 	function createRow($location_ID, $row, $spaces) 
 	{
-		//does this location exist? TODO.
-		if($this->exists($location_ID))
+		//does this location exist?
+		if($this->exists($location_ID) == FALSE)
 		{
+			print 'location does not exist';
 			return FALSE;
 		}
 		//does this row at this location already exist?
@@ -45,6 +48,7 @@ class MLocation extends Model
 				$this->db->insert('LocationData', $data);
 			} 
 		}
+		else{print 'row does already exist';}
 	}
   
 	 /*  Slet raekke(raekke) TODO
@@ -112,7 +116,7 @@ class MLocation extends Model
 		$data = array('Location_ID' => $Location_ID, 'row' => $row, 'space' => $space);
 		$result = $this->db->select('SELECT Blades_ID FROM LocationData WHERE Location_ID = :Location_ID AND row = :row AND space = :space', $data);
 		
-		if ($result[0][0] == ''){return TRUE;}
+		if ($result[0]['Blades_ID'] == ''){return TRUE;}
 		
 		return FALSE;	
 	}
@@ -158,9 +162,11 @@ class MLocation extends Model
  * -----
  * TASKS
  * -----
- * Check if function isEmpty works as intended. TODO
- * Check if function moveBlade works. TODO
- * Check if createRow works. TODO 
- * Check if create works. TODO
+ * Check if function isEmpty works as intended. 			Done
+ * Check if function moveBlade works. 						Done
+ * Check if createRow works. 								Done 
+ * Check if create works. 									Done
+ * Check if Exists works. 									Done 
  */
-	
+
+
