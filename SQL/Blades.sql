@@ -1,0 +1,6 @@
+CREATE TABLE Blades
+(
+ID VARCHAR(50) NOT NULL ,
+phase INT ,
+PRIMARY KEY (ID)
+);

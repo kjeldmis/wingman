@@ -61,6 +61,7 @@
 </table>
     </div>
     
+<<<<<<< HEAD:HTML/create_blade.php
     
     <div class="input_area_2">
         <h1 class="help_header">HELP:</h1>
@@ -81,6 +82,8 @@
     </pre>
     </div>
     
+=======
+>>>>>>> b75f415ff19f602e4897674d6678d19dd3cfa6e6:HTML/create_blade.html
 
 </body>
 </html>

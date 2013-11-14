@@ -78,7 +78,11 @@ input, textarea {
 /*Positions and sized the data content for every data screen*/
 .data_area {
     position: absolute;
+<<<<<<< HEAD
     background-color: #b0c4de; /*LightSteelBlue*/
+=======
+    background-color: #c0c0c0; /*silver*/
+>>>>>>> b75f415ff19f602e4897674d6678d19dd3cfa6e6
     border-style: solid;
     top: 18%;
     right: 6%;
@@ -202,6 +206,7 @@ input, textarea {
     height: 100%;
 }
 
+<<<<<<< HEAD
 .input_field_other_1 {
     position: absolute;
     top: 5%;
@@ -329,6 +334,8 @@ input, textarea {
     text-align: center;
 }
 
+=======
+>>>>>>> b75f415ff19f602e4897674d6678d19dd3cfa6e6
 .input_field2_1 {
     position: absolute;
     top: 5%;
