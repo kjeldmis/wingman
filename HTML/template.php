@@ -14,13 +14,12 @@
         
         <h1 id="header">Wingman</h1>
         
-        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
+        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.php'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='blades.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href=''"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
-        <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
     
@@ -28,8 +27,33 @@
     <div class="mainmenu_content">
         
 <div id="button_1">
-    <input type="button" value="Delete Blade" id="deleteblade_button" class="highlighted_mainmenu_button">
-</div> 
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_2">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_3">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_4">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_5">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_6">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_7">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_8">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+<div id="button_9">
+    <input type="button" value="" id="_button" class="mainmenu_button" onClick="window.location.href=''"></a>
+</div>
+        
     </div>
 
 
@@ -105,20 +129,28 @@
 </tr>
 </form>
 </table>
+        <h1 class="help_header">HELP:</h1>
+    <pre class="help_message"><h3>  
+    
+    
+    Enter the desired
+    Lokation Name.
+    
+    
+    Select a Location
+    Type:
+    
+    
+    
+    You can only select
+    one.
+    Plant or Storage.
+    </h3>
+    </pre>
 </div>
-    
-    
-
-    
-    
-
-    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
-    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. Insert name Here</i></small></div>
 
  
- </div>
  
 </body>
 </html>
-
 

@@ -14,20 +14,19 @@
         
         <h1 id="header">Wingman</h1>
         
-        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
+        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.php'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='admin_options.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='admin_options.php'"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
-        <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
     
 <div class="mainmenu_content">
         
 <div id="button_1">
-    <input type="button" value="Add Location" id="addlocation_button" class="mainmenu_button" onClick="window.location.href='add_location.html'"></a>
+    <input type="button" value="Create Location" id="addlocation_button" class="mainmenu_button" onClick="window.location.href='add_location.php'"></a>
 </div>
 <div id="button_2">
     <input type="button" value="Alter Location" id="alterlocation_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
@@ -35,14 +34,13 @@
 <div id="button_3">
     <input type="button" value="Delete Location" id="deletelocation_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
 </div>
+<div id="button_4">
+    <input type="button" value="Add Location Type" id="deletelocation_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+</div>
         
 </div>
-
-    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
-    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. BaIT5 - Insert name Here</i></small></div>
  
  
- </div>
  
 </body>
 </html>

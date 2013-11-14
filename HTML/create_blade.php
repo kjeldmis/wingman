@@ -14,13 +14,12 @@
         
         <h1 id="header">Wingman</h1>
         
-        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
+        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.php'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='blades.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='blades.php'"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
-        <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
     
@@ -34,37 +33,54 @@
 <table class="updateDB_form">
 <form name="createblade_form" method="post" action="">
 <tr>
-<td><input type="text" name="bladeID" class="input_field_1" placeholder="Blade ID"></td>
+<td><input type="text" name="bladeID" class="input_field_middle_1" placeholder="Blade ID" required="required"></td>
 </tr>
 <tr>
-<td><select name="location" size="1" class="input_field_2">
+<td><select name="location" size="1" class="input_field_middle_2" required="required">
     <option selected="selected" value="">Location</option>
     <option value="a"></option>
     </select></td>
 </tr>
 <tr>
-<td><select name="rows" size="1" class="input_field_3">
+<td><select name="rows" size="1" class="input_field_middle_3" required="required">
     <option selected="selected" value="">Row</option>
     <option value="a"></option>
     </select></td>
 </tr>
 <tr>
-<td><select name="space" size="1" class="input_field_4">
+<td><select name="space" size="1" class="input_field_middle_4" required="required">
     <option selected="selected" value="">Space</option>
     <option value="a"></option>
     </select></td>
 </tr>
 <tr>
-<td><input type="button" value="Save and Finish" id="accept_button" class="input_button" onClick="window.location.href='blades.html'"></a>
-    <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='blades.html'"></a></td>
+<td><input type="button" value="Save and Finish" id="accept_button" class="input_button" onClick="window.location.href='blades.php'"></a>
+    <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='blades.php'"></a></td>
 </tr>
 </form>
 </table>
     </div>
     
-
-    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
-    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. Insert name Here</i></small></div>
+    
+    <div class="input_area_2">
+        <h1 class="help_header">HELP:</h1>
+    <pre class="help_message"><h3>  
+    
+    
+    Enter the desired
+    Blade ID.
+    
+    
+    Select a Location
+    for the Blade.
+    
+    
+    Select a Row and
+    a Space for the Blade.
+    </h3>
+    </pre>
+    </div>
+    
 
 </body>
 </html>

@@ -14,20 +14,19 @@
         
         <h1 id="header">Wingman</h1>
         
-        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
+        <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='main_menu.php'"></a>
         
-        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='main_menu.html'"></a>
+        <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='main_menu.php'"></a>
         
         <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
-        <input type="button" id="tomato"><div id="not_implemented_text"> = Not Implemented</div></a>
         
     </header>
     
 <div class="mainmenu_content">
         
 <div id="button_1">
-    <input type="button" value="Create Blade" id="createblade_button" class="mainmenu_button" onClick="window.location.href='create_blade.html'"></a>
+    <input type="button" value="Create Blade" id="createblade_button" class="mainmenu_button" onClick="window.location.href='create_blade.php'"></a>
 </div>
 <div id="button_2">
     <input type="button" value="Delete Blade" id="deleteblade_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
@@ -37,12 +36,8 @@
 </div>
         
 </div>
-
-    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
-    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. Insert name Here</i></small></div>
  
  
- </div>
  
 </body>
 </html>

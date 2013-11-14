@@ -18,8 +18,9 @@
         
     </header>
     
+    
     <table class="loginform">
-    <form name="loginform" method="post" action="main_menu.html";">
+    <form name="loginform" method="post" action="main_menu.php";">
     <tr>
     <td><input name="myusername" type="text" id="myusername" placeholder="Username"></td>
     </tr>
@@ -34,9 +35,7 @@
     </form>
     
     
-    </div>
-    <!--Here the copyright line at the very bottom of the webpage is inserted.-->
-    <div id="copyright"><small><i>Copyright &copy; 2013. All rights reserved. Insert name Here</i></small></div>
+
 
 </body>
 </html>
