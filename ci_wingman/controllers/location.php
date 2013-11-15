@@ -10,6 +10,12 @@ class Location extends CI_Controller{
 		
 	}
 	
+	public function location_menu()
+	{
+		$this->load->view('location_menu');
+	}
+	
+	
 	function add_location()
 	{
 		$this->form_validation->set_rules('locationName', 'Location Name', 'required');

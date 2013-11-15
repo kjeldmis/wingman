@@ -47,7 +47,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" value="Save and Next" id="accept_button" class="input_button"/>
+                            <input type="submit" value="Save and Next" id="accept_button" class="input_button"/>
                             <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/location/location_menu');?>'"></a>
                         </td>
                     </tr>
