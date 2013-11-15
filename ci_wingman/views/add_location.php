@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Wingman - Add Location</title>
+    <title>Wingman - Add</title>
     
     <link type="text/css" rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1920px)" href="<?php echo base_url('/assets/styling/style_tablet.css') ?>" />
     
