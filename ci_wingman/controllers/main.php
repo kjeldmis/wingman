@@ -7,13 +7,6 @@ class Main extends CI_Controller {
 		$this->load->view('main_menu'); //this is a view on the page (HTML). 
 	}
 	
-	//not implemented
-	public function location_menu() 
-	{
-		$this->load->view('location_menu');
-	}
-	
-	
 	public function admin_options() 
 	{
 		$this->load->view('admin_options');

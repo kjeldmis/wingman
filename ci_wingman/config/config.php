@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/wingman/';
+$config['base_url']	= 'http://wingman.asuscomm.com/wingman/';
 
 /*
 |--------------------------------------------------------------------------
