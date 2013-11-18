@@ -15,6 +15,12 @@ input, textarea {
     -webkit-border-radius: 0px;
 }
 
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
 
 #tomato {
     position: absolute;
@@ -71,7 +77,7 @@ input, textarea {
     border-style: solid;
     bottom: 5%;
     left: 7%;
-    width: 26%;
+    width: 27%;
     height: 53%;
 }
 
@@ -628,8 +634,8 @@ input, textarea {
     background-color: #dcdcdc; /*Gainsboro*/
     border-style: thin;
     border-color: #191970; /*MidnightBlue*/
-    height: 100px;
-    width: 260px;
+    height: 21%;
+    width: 32%;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
@@ -640,8 +646,8 @@ input, textarea {
     background-color: #b0c4de; /*LightSteelBlue*/
     border-style: double;
     border-color: #ffff00; /*yellow*/
-    height: 100px;
-    width: 260px;
+    height: 21%;
+    width: 32%;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
@@ -652,8 +658,8 @@ input, textarea {
     background-color: #ff6347; /*Tomato*/
     border-style: thin;
     border-color: #191970; /*MidnightBlue*/
-    height: 100px;
-    width: 260px;
+    height: 21%;
+    width: 32%;
     text-align: center;
     font-weight: bold;
     font-size: x-large;

@@ -14,7 +14,7 @@
         
             <h1 id="header">Wingman</h1>
         
-            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/main_menu');?>'"></a>
+            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/main_menu');?>'"></a>
         
             <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/location_menu');?>'"></a>
         
@@ -24,9 +24,7 @@
         </header>
 
         <div class="mainmenu_content">
-            <div id="button_1">
-                <input type="button" value="Create Location" id="createlocation_button" class="highlighted_mainmenu_button"></a>
-            </div>
+            <input type="button" value="Create Location" id="button_1" class="highlighted_mainmenu_button"></a>
         </div>
 
         <div class="input_area">
@@ -47,7 +45,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" value="Save and Next" id="accept_button" class="input_button"/>
+                            <input type="submit" value="Save and Next" id="accept_button" class="input_button"/>
                             <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/location/location_menu');?>'"></a>
                         </td>
                     </tr>

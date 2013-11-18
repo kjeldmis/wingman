@@ -21,34 +21,16 @@
 
         <div class="mainmenu_content">
         
-            <div id="button_1">
-                <input type="button" value="Orders" id="orders_button" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/location/order_menu');?>'"></a>
-            </div>
-            <div id="button_2">
-                <input type="button" value="Blades" id="blades_button" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/location/blade_menu');?>'"></a>
-            </div>
-            <div id="button_3">
-                <input type="button" value="Locations" id="locations_button" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/location/location_menu');?>'"></a>
-            </div>
-            <div id="button_4">
-                <input type="button" value="Users" id="users_button" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/location/user_menu');?>'"></a>
-            </div>
-            <div id="button_5">
-                <input type="button" value="Rights" id="rights_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
-            </div>
-            <div id="button_6">
-                <input type="button" value="" id="_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
-            </div>
-            <div id="button_7">
-                <input type="button" value="" id="_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
-            </div>
-            <div id="button_8">
-                <input type="button" value="" id="_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
-            </div>
-            <div id="button_9">
-                <input type="button" value="" id="_button" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
-            </div>
-        
+            <input type="button" value="Orders" id="button_1" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/main/order_menu');?>'"></a>
+            <input type="button" value="Blades" id="button_2" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/main/blade_menu');?>'"></a>
+            <input type="button" value="Locations" id="button_3" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/main/location_menu');?>'"></a>
+            <input type="button" value="Users" id="button_4" class="mainmenu_button" onClick="window.location.href='<?php echo base_url('index.php/main/user_menu');?>'"></a>
+            <input type="button" value="Rights" id="button_5" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+            <input type="button" value="" id="button_6" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+            <input type="button" value="" id="button_7" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+            <input type="button" value="" id="button_8" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+            <input type="button" value="" id="button_9" class="not_implemented_mainmenu_button" onClick="window.location.href=''"></a>
+            
         </div>
  
  

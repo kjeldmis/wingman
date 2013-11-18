@@ -14,9 +14,9 @@
         
             <h1 id="header">Wingman</h1>
         
-            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/main_menu');?>'"></a>
+            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/main_menu');?>'"></a>
         
-            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/order_menu');?>'"></a>
+            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/order/order_menu');?>'"></a>
         
             <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
@@ -25,9 +25,7 @@
     
     
         <div class="mainmenu_content">  
-            <div id="button_1">
-                <input type="button" value="Create Order" id="createorder_button" class="highlighted_mainmenu_button"></a>
-            </div> 
+            <input type="button" value="Create Order" id="button_1" class="highlighted_mainmenu_button"></a> 
         </div>
 
         <div class="input_area_2">

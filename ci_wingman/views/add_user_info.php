@@ -14,9 +14,9 @@
         
             <h1 id="header">Wingman</h1>
         
-            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/main_menu');?>'"></a>
+            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/main_menu');?>'"></a>
         
-            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/user_menu');?>'"></a>
+            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/user_menu');?>'"></a>
         
             <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
@@ -25,9 +25,7 @@
     
     
         <div class="mainmenu_content">
-            <div id="button_1">
-                <input type="button" value="Create User" id="createuser_button" class="highlighted_mainmenu_button">
-            </div> 
+                <input type="button" value="Create User" id="button_1" class="highlighted_mainmenu_button">
         </div>
 
 
@@ -64,14 +62,14 @@
                             <select name="" size="1" class="input_field_6" required="required">
                                 <option selected="selected" value="">Select Emp. Location</option>
                                 <option value=""></option>
-                                <option value="a">Port 8</option>
+                                <option value=""></option>
                             </select>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" value="Save and Next" id="accept_button" class="input_button"/>
-                            <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/location/user_menu');?>'"></a>
+                            <input type="submit" value="Save and Next" id="accept_button" class="input_button" />
+                            <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/user/user_menu');?>'"></a>
                         </td>
                     </tr>
                 </form>

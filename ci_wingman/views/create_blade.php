@@ -14,9 +14,9 @@
         
             <h1 id="header">Wingman</h1>
         
-            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/main_menu');?>'"></a>
+            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/main_menu');?>'"></a>
         
-            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/blade_menu');?>'"></a>
+            <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/blade_menu');?>'"></a>
         
             <input type="button" value="Log Out" id="logout_button" class="header_button" onClick="window.location.href=''"></a>
         
@@ -24,9 +24,7 @@
         </header>
     
         <div class="mainmenu_content">
-            <div id="button_1">
-                <input type="button" value="Create Blade" id="createblade_button" class="highlighted_mainmenu_button"></a>
-            </div>
+            <input type="button" value="Create Blade" id="button_1" class="highlighted_mainmenu_button"></a>
         </div>
 
         <div class="input_area">
@@ -63,8 +61,8 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" value="Save and Finish" id="accept_button" class="input_button"/>
-                            <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/location/blade_menu');?>'"></a>
+                            <input type="submit" value="Save and Finish" id="accept_button" class="input_button" />
+                            <input type="button" value="Cancel" id="cancel_button" class="input_button" onClick="window.location.href='<?php echo base_url('index.php/blade/blade_menu');?>'"></a>
                         </td>
                     </tr>
                 </form>

@@ -14,7 +14,7 @@
         
             <h1 id="header">Wingman</h1>
         
-            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/main_menu');?>'"></a>
+            <input type="button" value="Home" id="home_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/main/main_menu');?>'"></a>
         
             <input type="button" value="Back" id="back_button" class="header_button" onClick="window.location.href='<?php echo base_url('index.php/location/add_location_row');?>'"></a>
         
@@ -24,9 +24,7 @@
         </header>
 
         <div class="mainmenu_content">
-            <div id="button_1">
-                <input type="button" value="Create Location" id="createlocation_button" class="highlighted_mainmenu_button"></a>
-            </div>
+            <input type="button" value="Create Location" id="button_1" class="highlighted_mainmenu_button"></a>
         </div>
 
         <div class="input_area">
@@ -34,7 +32,7 @@
                 <form name="addlocation_form" method="post" action="">
                     <tr>
                         <td>
-                            <input class="input_field_middle_4" type="button" value="Add another Row" id="input_button_row"" onClick="window.location.href='<?php echo base_url('index.php/location/add_location_row');?>'">
+                            <input class="input_field_middle_4" type="button" value="Add another Row" id="input_button_row"" onClick="window.location.href='add_location_row.php'">
                         </td>
                     </tr>
                     <tr>
