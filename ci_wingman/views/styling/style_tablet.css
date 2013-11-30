@@ -1,0 +1,679 @@
+
+/*Sets the overall style of the HTML document*/
+html {
+    background-color: #4682b4; /*SteelBlue*/
+    border-style: solid;
+    border-width: 5px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+#tomato {
+    position: absolute;
+    background-color: #ff6347; /*Tomato*/
+    border-style: solid;
+    width: 3%;
+    height: 4%;
+    top: 2%;
+    right: 32%;
+}
+#not_implemented_text {
+    position: absolute;
+    top: 2%;
+    right: 18%;
+}
+
+/*Positions the Headers for every screen*/
+#header {
+    position: absolute;
+    background-color: #ffffff; /*White*/
+    color: #20b2aa; /*LightSeaGreen*/
+    width: 20%;
+    height: 7%;
+    top: 0%;
+    left: 40%;
+    text-align: center;
+}
+
+/*Positions and sizes the main menu content for every menu screen*/
+.mainmenu_content {
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    width: 85%;
+    max-width: 85%;
+    height: 75%;
+    max-height: 75%;
+}
+
+/*Positions and sized the input content for every input screen*/
+.input_area {
+    position: absolute;
+    background-color: #b0c4de; /*LightSteelBlue*/
+    border-style: solid;
+    top: 18%;
+    right: 6%;
+    width: 57%;
+    height: 77%;
+}
+/*Positions and sized the input area 2 content for every input screen*/
+.input_area_2 {
+    position: absolute;
+    background-color: #b0c4de; /*LightSteelBlue*/
+    border-style: solid;
+    bottom: 5%;
+    left: 7%;
+    width: 27%;
+    height: 53%;
+}
+
+/*Positions and sized the data content for every data screen*/
+.data_area {
+    position: absolute;
+    background-color: #b0c4de; /*LightSteelBlue*/
+    border-style: solid;
+    top: 18%;
+    right: 6%;
+    width: auto;
+    height: 77%;
+    overflow-y: scroll;
+}
+
+.help_header {
+    position: absolute;
+    border-bottom: solid;
+    top: -5%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.help_message {
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+
+.input_field_1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_3 {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_4 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_5 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_7 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_8 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_9 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+.input_field_10 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+}
+
+#row_field {
+    width: 28%;
+    text-align: center;
+}
+
+.input_field_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: auto;
+    height: 100%;
+}
+
+.input_field_other_1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_3 {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_4 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_5 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_7 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_8 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_9 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+.input_field_other_10 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    font-size: larger;
+}
+
+.input_field_middle_1 {
+    position: absolute;
+    top: 5%;
+    left: 27%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+.input_field_middle_2 {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+.input_field_middle_3 {
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+.input_field_middle_4 {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+.input_field_middle_5 {
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+
+.input_field2_1 {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    width: auto;
+    height: 12%;
+    font-size: larger;
+}
+.input_field2_2 {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_3 {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_4 {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+.input_field2_5 {
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    width: auto;
+    height: 14%;
+    font-size: larger;
+}
+
+.highlighted_input_field_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: double;
+    border-color: #ffff00; /*yellow*/
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: auto;
+    height: 100%;
+}
+
+#time {
+    width: 10%;
+    height: 12%;
+}
+
+#location_name {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    width: auto;
+    height: 10%;
+    font-size: larger;
+    text-align: center;
+}
+
+#select_type {
+    position: absolute;
+    top: 32%;
+    left: 59%;
+    width: 23%;
+    height: 12%;
+    font-size: larger;
+    text-align: center;
+}
+
+.input_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-si0e: larger;
+    width: 24%;
+    height: 16%;
+}
+
+#input_button_row {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-si0e: larger;
+}
+
+#accept_button {
+    position: absolute;
+    bottom: 2%;
+    right: 10%;
+}
+
+#skip_button {
+    position: absolute;
+    bottom: 2%;
+    right: 40%;
+}
+
+#cancel_button {
+    position: absolute;
+    bottom: 2%;
+    right: 70%;
+}
+
+.input_button2 {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    width: 46%;
+    height: 14%;
+}
+
+#accept_button2 {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+}
+
+#cancel_button2 {
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+}
+
+.checkbox {
+    height: 45px;
+    width: 45px;
+}
+
+/*Positions Button 1*/
+#button_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*Positions Button 2*/
+#button_2 {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+}
+
+/*Positions Button 3*/
+#button_3 {
+    position: relative;
+    top: 0%;
+    left: 70%;
+}
+
+/*Positions Button 4*/
+#button_4 {
+    position: absolute;
+    top: 31%;
+    left: 0%;
+}
+
+/*Positions Button 5*/
+#button_5 {
+    position: absolute;
+    top: 31%;
+    left: 35%;
+}
+
+/*Positions Button 6*/
+#button_6 {
+    position: absolute;
+    top: 31%;
+    left: 70%;
+}
+
+/*Positions Button 4*/
+#button_7 {
+    position: absolute;
+    top: 62%;
+    left: 0%;
+}
+
+/*Positions Button 5*/
+#button_8 {
+    position: absolute;
+    top: 62%;
+    left: 35%;
+}
+
+/*Positions Button 6*/
+#button_9 {
+    position: absolute;
+    top: 62%;
+    left: 70%;
+}
+
+
+/*Changes how the table for the login form is seen*/
+.loginform {
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height: 65%;
+    padding: 40px;
+    top: 20%;
+    right: 40%;
+    float: right;
+}
+
+.header_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    text-align: center;
+    font-weight: bold;
+    width: 10%;
+    height: 8%;
+}
+
+#logout_button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#home_button {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+#back_button {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+}
+
+/*Changes how every table for almost every form, except the login form, is seen*/
+.updateDB_form {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    top: 0%;
+    left: 2%;
+}
+
+.data_table {
+    position: relative;
+    background-color: #ffffff; /*white*/
+    font-size: larger;
+    padding: 2px;
+}
+
+/*Positions and sizes the username field at the login screen*/
+#myusername {
+    position: absolute;
+    width: 80%;
+    height: 8%;
+    font-size: larger;
+}
+
+/*Positions and sizes the password field at the login screen*/
+#mypassword {
+    position: absolute;
+    width: 80%;
+    height: 8%;
+    font-size: larger;
+}
+
+/*positions and sizes the login button at the login screen*/
+.login_button {
+    position: absolute;
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    width: 40%;
+    height: 12%;
+    top: 65%;
+    right: -13%;
+    font-size: larger;
+}
+
+/*Positions, sizes, changes look and fonts for the main menu buttons.*/
+.mainmenu_button {
+    background-color: #dcdcdc; /*Gainsboro*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    height: 21%;
+    width: 32%;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*Positions, sizes, changes look and fonts for the highlighted main menu buttons.*/
+.highlighted_mainmenu_button {
+    background-color: #b0c4de; /*LightSteelBlue*/
+    border-style: double;
+    border-color: #ffff00; /*yellow*/
+    height: 21%;
+    width: 32%;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*Positions, sizes, changes look and fonts for the not implemented main menu buttons.*/
+.not_implemented_mainmenu_button {
+    background-color: #ff6347; /*Tomato*/
+    border-style: thin;
+    border-color: #191970; /*MidnightBlue*/
+    height: 21%;
+    width: 32%;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+
+/*Positions and sizes the copyright field at every screen*/
+#copyright {
+        color: #000000; /*Black*/
+        position: absolute;
+        position: fixed;
+        bottom: 2px;
+        right: 5%;
+    }
